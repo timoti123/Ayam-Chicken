@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style02.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+          <div class="logo"><a href=''>Ayam:Chicken</a></div>
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portofolio.html">Portofolio</a></li>
+              <li><a href="order.html">Services</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="contact-form-container">
+        <div class="contact-form">
+            <h1>Sign Up</h1>
+            <form id="contactForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="dob">Tanggal Lahir:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="gender">Jenis Kelamin:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Laki-laki</option>
+                    <option value="female">Perempuan</option>
+                    <option value="other">Lainnya</option>
+                </select>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+        <div id="result" class="result-box"></div>
+    </div>
+
+    <div class="footer">
+        <div class="wrapper">
+            <div class="footer-section">
+                <p><a href="">@Ayamischicken.id</a></p>
+            </div>
+        </div>
+    </div>
+    
+      
+    <script src="script.js"></script>
+</body>
+</html>
